@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+.concform{
+	font-size: 18px;
+}
+.concform label, .concform span, .concform textarea{
+	display: block;
+	width: 900px;
+}
+.concform label{
+	margin-bottom: 40px;
+}
+.concform span{
+	margin-bottom: 15px;
+}
+.concform textarea{
+	border: 1px solid;
+	resize: none;
+	padding: 10px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+.concform h2{
+	text-align: center;
+	margin-bottom: 70px;
+}
+.concform input[type="submit"]{
+	width: 150px;
+	height: 30px;
+}
+.txtLen{
+	margin-bottom: 15px;
+	margin-left: 10px;
+	//display: none;
+}
